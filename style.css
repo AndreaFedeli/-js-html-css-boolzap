@@ -1,0 +1,176 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  background-color: lightpink;
+}
+
+.contact{
+  width: 30vw;
+  height: 80px;
+  margin-left: 10%;
+  margin-top: 20px;
+  background-color: lightgrey;
+  float: left;
+  box-sizing: 1px solid grey;
+}
+
+.contact img{
+  margin-top: 10px;
+  float: left;
+}
+
+.icons{
+  width: 15vw;
+  height: 80px;
+  float: right;
+  background-color: lightgrey;
+}
+
+.icons i{
+
+  padding-right: 10px;
+  font-size: 30px;
+  padding-top: 25px;
+  float: right;
+  color: grey;
+}
+
+.user{
+  width: 50vw;
+  height: 80px;
+  margin-top: 20px;
+  background-color: lightgrey;
+  float: left;
+
+}
+
+.user img{
+  margin-top: 10px;
+  float: left;
+}
+
+.dati{
+  float: left;
+  width: 15vw;
+  height: 80px;
+}
+
+
+
+.name{
+  font-size: 20px;
+  padding-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.icons2{
+  width: 15vw;
+  height: 80px;
+  float: right;
+  background-color: lightgrey;
+}
+
+.icons2 i{
+  padding-right: 10px;
+  font-size: 30px;
+  padding-top: 25px;
+  float: right;
+  color: grey;
+
+}
+
+.notifiche{
+  width: 30vw;
+  height: 630px;
+  margin-left: 10%;
+  background-color: purple;
+  float: left;
+  overflow: auto;
+}
+
+
+.contatti{
+  width: 30vw;
+  height: 60px;
+  background-color: skyblue;
+  float: left;
+  text-align: justify;
+
+}
+
+
+.contatti .desktop{
+  padding-left: 50px;
+}
+
+.contatti i{
+  font-size: 30px;
+  padding-top: 15px;
+  padding-left: 10px;
+  color: white;
+}
+
+
+
+input{
+  width: 30vw;
+  height: 45px;
+}
+
+.friend {
+  width: 30vw;
+  height: 60px;
+  background-color: white;
+
+}
+
+.friend img {
+  float: left;
+}
+
+.nome{
+  float: left;
+  width: 10vw;
+  height: 60px;
+  color: green;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.lst{
+  font-size: 10px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.amico{
+  width: 30vw;
+  height: 60px;
+  background-color: orange;
+}
+
+
+
+.chat{
+  width: 50vw;
+  height: 570px;
+  background: linear-gradient(to right, #33ccff 0%, #cc0000 100%);
+  float: left;
+  overflow: auto;
+
+}
+
+.message{
+  width: 50vw;
+  height: 60px;
+  background-color: blue;
+  float: left;
+
+}
