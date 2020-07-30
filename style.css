@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
 .container{
   width: 100vw;
   height: 100vh;
@@ -135,6 +141,12 @@ input{
   float: left;
 }
 
+.friend p{
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+
 .nome{
   float: left;
   width: 10vw;
@@ -165,44 +177,36 @@ input{
   background: linear-gradient(to right, #33ccff 0%, #cc0000 100%);
   float: left;
   overflow: auto;
-
-
-}
-
-.sent{
-  width: 25vw;
-  height: 570px;
-
-  float: left;
-}
-
-.received{
-  width: 25vw;
-  height: 570px;
-  float: right;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
 
 }
 
-.p1{
-  width: 150px;
-  height: 50px;
-  background-color: white;
-  margin-top: 50px;
-  margin-left: 100px;
-  display: grid;
+.messaggio{
+  margin-bottom: 20px;
+
+}
+
+.template{
   display: none;
 
+
 }
 
-.p2{
+
+.inviato{
   width: 150px;
   height: 50px;
   background-color: lightgreen;
-  margin-top: 90px;
-  margin-left: 200px;
-  display: grid;
-  display:none;
+  align-self: flex-end;
 
+}
+
+.ricevuto{
+  width: 150px;
+  height: 50px;
+  background-color: white;
 
 }
 
